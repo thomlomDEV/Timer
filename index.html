@@ -66,7 +66,7 @@ var countdown = 10;
 countdownNumberEl.textContent = countdown;
 
 setInterval(function() {
-  countdown = --countdown <= 0 ? 10 : countdown;
+  countdown = --countdown <= 0 ? 600 : countdown;
 
   countdownNumberEl.textContent = countdown;
 }, 1000);
